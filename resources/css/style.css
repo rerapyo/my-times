@@ -11,11 +11,6 @@ a {
   color: black;
 }
 
-/* h2 {
-  font-size: 30px;
-  font-weight: bold;
-} */
-
 /* general content styles */
 .stories {
   display: flex;
@@ -122,7 +117,7 @@ header nav {
   background-image: url(../images/story-3-camera.png);
 }
 
-/*middle medium column */
+/* middle medium column */
 
 .column.medium {
   width: 300px;
@@ -133,7 +128,7 @@ header nav {
   background-image: url(../images/story-1-cat.png);
 }
 
-/*left small column */
+/* left small column */
 .column.small {
   width: 240px;
   border: 1px solid black;
@@ -153,3 +148,34 @@ header nav {
   color: dimgray;
   font-family: Verdana;
   font-size: 12px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: mediumaquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+}
+
+.footer-title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
