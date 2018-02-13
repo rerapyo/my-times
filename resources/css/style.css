@@ -1,5 +1,4 @@
 /* general styles */
-
 body {
   margin: 0;
   font-family: Georgia;
@@ -48,8 +47,7 @@ nav span {
   text-align: center;
 }
 
-/* header properties */
-
+/* header styles */
 header {
   display: flex;
   justify-content: space-between;
@@ -85,8 +83,7 @@ header nav {
   padding-right: 40px;
 }
 
-/* content properties */
-
+/* content styles */
 .content {
   display: flex;
   justify-content: space-between;
@@ -125,7 +122,6 @@ header nav {
 }
 
 /* middle medium column */
-
 .column.medium {
   width: 300px;
 }
@@ -156,8 +152,7 @@ header nav {
   font-size: 12px;
 }
 
-/* Footer */
-
+/* Footer Styles */
 footer {
   display: flex;
   align-items: center;
